@@ -1,0 +1,13 @@
+section {
+    width: 1000px;
+    height: 600px;
+    background-image: url('https://i.pinimg.com/originals/17/d6/ce/17d6ced5b0a988e6df4879cd79793f73.jpg');
+    margin: 0 auto;
+    background-size: cover;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Permanent Marker', cursive;
+}

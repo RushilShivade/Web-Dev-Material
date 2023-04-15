@@ -1,0 +1,12 @@
+<%- include('partials/head.ejs')%>
+<body>
+    <%- include('partials/navbar.ejs')%>
+    <h1>Popular dog breeds</h1>
+
+    <ul>
+        <%for(let dog of dogs){%>
+            <li><%= dog %></li>
+        <%}%>
+    </ul>
+</body>
+</html>

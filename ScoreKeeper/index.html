@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    
+    <!-- <style>
+        .winner{
+            color: green;
+        }
+        .loser{
+            color: red;
+        }
+    </style> -->
+</head>
+<body>
+    <section class="section">
+    <div class="container">
+        <div class="columns">
+            <div class="column is-half
+            is-offset-one-quarter">
+                <div class="card">
+                    <div class="card-image">
+                      <figure class="image is-4by3">
+                        <img src="/image.webp" alt="Placeholder image">
+                      </figure>
+                    </div>
+                    <div class="card-content">
+                      <div class="media">
+                        <div class="media-content">
+                          <p class="title is-3">Ping Pong Score Keeper</p>
+                          <p class="subtitle is-7">-Rushil Shivade</p>
+                        </div>
+                      </div>
+                  
+                      <div class="content">
+                        <h1><span id="p1Disp">0</span> to <span id="p2Disp">0</span></h1>
+                        <label for="selectLimit">Select the score limit</label>
+                        <div class="select is-rounded is-small is-focused">
+                            <select id="selectLimit">
+                                <option value="5">5</option>
+                                <option value="11">11</option>
+                                <option value="22">22</option>
+                            </select>
+                          </div>
+                          <br>
+                          <br>
+                          <button class="button is-primary is-outlined" id="p1Button">Player 1</button>
+                          <button class="button is-primary is-outlined" id="p2Button">Player 2</button>
+                          <button class="button is-danger is-outlined" id="resetButton">Reset</button>
+                        
+                      </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- <h1><span id="p1Disp">0</span> to <span id="p2Disp">0</span></h1> -->
+    <select name="select" id="selectLimit">
+        <option value="5">5</option>
+        <option value="11">11</option>
+        <option value="22">22</option> 
+      </select>
+      <!-- <button id="btn">Select</button> -->
+
+      <!-- <button id="p1Button">Player 1</button>
+      <button id="p2Button">Player 2</button>
+      <button id="resetButton">Reset</button>
+       -->
+</body>
+<script src="/app.js"></script>
+</html>

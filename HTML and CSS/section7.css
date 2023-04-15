@@ -1,0 +1,122 @@
+h1 {
+    color: #1b3b6f;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    border: 2px solid black;
+    border-radius: 5px;
+    border-left-width: 5px;
+    margin: 40px;
+    margin-left: 0;
+}
+
+body {
+    background-color: #e7c9a6;
+    font-family: arial, sans-serif;
+}
+
+#login {
+    background-color: rgba(0, 0, 0, 0.484);
+    color: aliceblue;
+    font-size: large;
+}
+
+#signup {
+    background-color: rgba(0, 0, 0, 0.484);
+    color: aliceblue;
+    font-size: large;
+}
+
+.tag {
+    background-color: rgb(255, 12, 12);
+    color: rgba(255, 255, 255, 0.848);
+    font-size: small;
+}
+
+.tag:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: #00b4d8;
+}
+
+/* section span a {
+    color: #7b2cbf;
+} YOU CAN USE THIS TOO BUT LENGTHY. THIS IS DESCENDANT SELECTOR EXAMPLE */
+
+.post a {
+    color: #ef476f;
+}
+
+h2+button {
+    background-color: #72efdd;
+    font-size: large;
+}
+
+div button {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer>a {
+    color: #ef476f;
+}
+
+a[href*="google"] {
+    color: #ffc300;
+    /* Attribute selector */
+}
+
+h2+button:hover {
+    background-color: rgb(118, 226, 118);
+}
+
+#funny:hover {
+    background-color: #ffc300;
+    /* This is ID selector and has more priority than the above one so this will be applied. */
+}
+
+.post a {
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post button:active {
+    background-color: #8b5e34;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #b59e84ef;
+    /* nth of type psuedo class */
+}
+
+input:placeholder-shown {
+    border-color: teal;
+    color: purple;
+    font-style: italic;
+}
+
+h2::first-letter {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+::selection {
+    background-color: #00b4d8;
+}
+
+/* button {
+    background-color: #2a6f97 !important;
+} */
+
+#lm {
+    padding: 10px 5px 10px;
+    border-radius: 8px;
+    background-color: #00a6fb;
+    color: white;
+    font-size: 15px;
+    border-left-width: 5px;
+    border-right-width: 5px;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackerrrr</title>
+</head>
+
+<body>
+
+    <h2>SEARCH ENGINES</h2>
+    <hr>
+    <form action="https://www.reddit.com/search">
+
+        <p>
+            <input type="text" name="q">
+            <button>Search on Reddit</button>
+        </p>
+
+    </form>
+    <br>
+
+    <form action="https://www.google.com/search">
+
+        <p>
+            <input type="text" name="q">
+            <button>Search on Google</button>
+        </p>
+
+    </form>
+    <br>
+
+    <form action="https://www.youtube.com/results">
+
+        <p>
+            <input type="text" name="search_query">
+            <button>Search on Youtube</button>
+        </p>
+    </form>
+
+    <H2>CHECKBOXES</H2>
+
+    <form action="/helloworld">
+        <p>
+            <input type="checkbox" id="agree" name="hello69" checked>
+            <label for="agree">I agree to terms of conditions</label>
+
+
+            <input type="checkbox" id="disagree" name="hello96">
+            <label for="disagree">I refuse to agree the terms of conditions</label>
+        </p>
+
+        <button>Submit</button>
+
+        <!-- Here multiple checkboxes can be ticked cuz this is checkbox and not radio. In radio, only one of the given options can be selected. -->
+    </form>
+
+    <h2>RADIO</h2>
+    <form action="/ToursAndTravels">
+
+        <h3>Q.What is the formula for Sulphuric acid?</h3>
+        <hr>
+        <p>
+        <div>
+            <input type="radio" id="id1" name="mcq" value="HCl">
+            <label for="id1">HCl</label>
+        </div>
+        </p>
+
+
+        <p>
+        <div>
+            <input type="radio" id="id2" name="mcq" value="H2SO4">
+            <label for="id1">H2SO4</label>
+        </div>
+        </p>
+
+
+        <p>
+        <div>
+            <input type="radio" id="id3" name="mcq" value="H20">
+            <label for="id3">H20</label>
+        </div>
+        </p>
+
+        <h3>Textbox</h3>
+
+        <div>
+            <label for="text">Any Queries?</label>
+            <input type="textbox" id="text" name="Queries">
+
+        </div>
+
+        <button>Submit</button>
+
+        <!-- Here we observe that by giving same 'name' to each option, we link those options and therefore only one of them is selected. This can be used in MCQs. -->
+
+        <h2>Rushil Tours and Travels</h2>
+
+        <h3>SELECT</h3>
+        <label for="destination">Please select the destination:</label>
+        <select name="destination is" id="destination">
+            <option value="New York">New York</option>
+            <option value="London">London</option>
+            <option value="Venice">Venice</option>
+            <option value="Amsterdam">Amsterdam</option>
+            <option value="Sydney">Sydney</option>
+        </select>
+
+        <h3>Range</h3>
+        <p>
+            <label for="rg">Budget:</label>
+            <input type="range" id="rg" min="50000" max="500000" value="100000" name="Budget">
+        </p>
+
+        <h3>Terms and Conditions</h3>
+
+        <p>
+            <input type="radio" id="agree" name="tc" value="agree">
+            <label for="agree">I agree to the terms and conditions.</label>
+        </p>
+
+        <p>
+            <input type="radio" id="disagree" name="tc" value="disagree">
+            <label for="disagree">I do not agree to the terms and conditions.</label>
+        </p>
+
+        <button>Submit</button>
+    </form>
+
+</body>
+
+</html>

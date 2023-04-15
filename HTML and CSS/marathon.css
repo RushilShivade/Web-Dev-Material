@@ -1,0 +1,16 @@
+h1 {
+    color: darkturquoise;
+    text-decoration: underline;
+    font-size: 30px;
+    letter-spacing: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: #156abf;
+}
+
+body {
+    background-color: rgba(36, 3, 77, 0.518);
+
+}

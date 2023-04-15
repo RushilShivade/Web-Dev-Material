@@ -1,0 +1,23 @@
+h2 {
+    font-size: 1em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+ul {
+    font-size: 2em;
+}
+
+section {
+    font-size: 20px;
+}
+
+#print {
+    background: white;
+    background-color: teal;
+    color: white;
+    font-size: 0.8em;
+    padding: 1em;
+}

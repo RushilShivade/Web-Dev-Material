@@ -1,0 +1,48 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    padding: 30px;
+    text-align: center;
+}
+
+.button{
+    margin: 0.3em;
+    padding: 12px 32px;
+}
+
+#input1{
+    text-align: center;
+    width: 300px;
+    padding: 10px 50px;
+    font-size: large;
+}
+
+.container2{
+    text-align: center;
+
+}
+
+.container{
+    padding: 30px;
+}
+
+.clearBtn{
+    
+    background: none;
+    color: #000000;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 1em;
+    transition: 0.25s;
+}
+
+.clearBtn:hover{
+    border-color: #6009b7;
+    color: rgb(84, 4, 138);
+    box-shadow: 0 0.5em 0.5em -0.4em #6009b7;
+    transform: translateY(-0.25em);
+    cursor: pointer;
+}
+
